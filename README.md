@@ -1,5 +1,4 @@
-# arcolinuxd-iso
+# arcolinuxd-iso-next
 
-With this github you can build your own ArcoLinuxD version.
-
+# next iso
 

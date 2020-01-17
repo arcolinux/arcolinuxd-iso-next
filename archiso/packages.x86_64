@@ -580,7 +580,7 @@ arcolinux-xfce-git
 #arcolinux-config-plasma-git
 #arcolinux-config-plasma-nemesis-git
 #arcolinux-config-qtile-git
-arcolinux-config-xfce-git
+#arcolinux-config-xfce-git
 #arcolinux-config-xmonad-git
 #arcolinux-config-xtended-git
 
@@ -613,10 +613,11 @@ arcolinux-config-xfce-git
 #                                ARCOLINUX CALAMARES
 ###########################################################################
 
-arco-calamares
-#arco-calamares-dev
+#arco-calamares
+arco-calamares-dev
 #arco-calamares-comp
 arcolinux-system-installation-git
+arcolinux-config-live-session-git
 
 ###########################################################################
 #                                CALAMARES DEPENDENCIES
@@ -629,7 +630,7 @@ kconfig
 ki18n
 kservice
 kwidgetsaddons
-kpmcore
+kpmcore-git
 boost-libs
 libpwquality
 squashfs-tools
@@ -665,7 +666,8 @@ qt5-xmlpatterns
 #arco-calamares-config-dev-git
 #arcod-calamares-config-git
 #arcod-calamares-config-comp-git
-arcod-calamares-config-dev-git
+#arcod-calamares-config-dev-git
+arcod-calamares-config-next-git
 
 ###########################################################################
 #                                DESKTOP SPECIFIC
