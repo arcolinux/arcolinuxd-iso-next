@@ -197,10 +197,6 @@ wpa_supplicant
 #gvfs-nfs
 #gvfs-smb
 #mtpfs
-#thunar
-#thunar-archive-plugin
-#thunar-media-tags-plugin
-#thunar-volman
 #udiskie
 #udisks2
 #xdg-user-dirs
@@ -393,7 +389,7 @@ xdotool
 #zsh-syntax-highlighting
 
 ###########################################################################
-#                           ARCOLINUX_REPO_ISO
+#                           ARCOLINUX_REPOS
 ###########################################################################
 
 ###applications
@@ -466,8 +462,7 @@ yay-bin
 #                               GAMES
 ###########################################################################
 
-#steam
-#steam-native-runtime
+#arcolinux-meta-steam
 #lutris
 #sauerbraten
 #xonotic
@@ -695,10 +690,13 @@ arcod-calamares-config-next-git
 #                                XFCE
 ###########################################################################
 
-###xfce4 group content
+### xfce4 group content
+# https://www.archlinux.org/groups/x86_64/xfce4/
 #exo
 #garcon
 thunar
+#thunar-volman
+#tumbler
 #xfce4-appfinder
 xfce4-panel
 #xfce4-power-manager
@@ -710,11 +708,14 @@ xfdesktop
 xfwm4
 #xfwm4-themes
 
-###xfce4-goodies group content
+### xfce4-goodies group content
+# https://www.archlinux.org/groups/x86_64/xfce4-goodies/
 #mousepad
 #orage
 #parole
 #ristretto
+#thunar-archive-plugin
+#thunar-media-tags-plugin
 #xfburn
 #xfce4-artwork
 #xfce4-battery-plugin
@@ -734,6 +735,7 @@ xfwm4
 #xfce4-notes-plugin
 #xfce4-notifyd
 #xfce4-pulseaudio-plugin
+#xfce4-screensaver
 #xfce4-screenshooter
 #xfce4-sensors-plugin
 #xfce4-smartbookmark-plugin
@@ -748,7 +750,6 @@ xfwm4
 #xfce4-xkb-plugin
 
 #xfce4-panel-profiles
-#gtk-engine-murrine
 
 ###########################################################################
 #                                ISO SPECIFIC
