@@ -3,10 +3,10 @@
 set -e -u
 
 iso_name=arcolinuxd-next
-iso_label="arcolinuxd-next-v20.2.7"
+iso_label="arcolinuxd-next-v20.2.8"
 iso_publisher="ArcoLinux <http://www.arcolinux.info>"
 iso_application="ArcoLinuxD Live/Rescue CD"
-iso_version="v20.2.7"
+iso_version="v20.2.8"
 install_dir=arch
 work_dir=work
 out_dir=out
@@ -272,21 +272,19 @@ make_checks() {
     echo "###################################################################"
     tput setaf 3;echo "14. checks and sign";tput sgr0
     echo "###################################################################"
-    touch ${out_dir}/${iso_label}.checksum
     echo "Building sha1sum"
     echo "########################"
-    echo "sha1sum">> ${out_dir}/${iso_label}.checksum
-    sha1sum ${out_dir}/${iso_label}.iso >> ${out_dir}/${iso_label}.checksum
+    cd ${out_dir}
+    sha1sum ${iso_label}.iso > ${iso_label}.sha1
     echo "Building sha256sum"
     echo "########################"
-    echo "sha256sum" >> ${out_dir}/${iso_label}.checksum
-    sha256sum ${out_dir}/${iso_label}.iso >> ${out_dir}/${iso_label}.checksum
+    sha256sum ${iso_label}.iso > ${iso_label}.sha256
     echo "Building md5sum"
     echo "########################"
-    echo "md5sum" >> ${out_dir}/${iso_label}.checksum
-    md5sum ${out_dir}/${iso_label}.iso >> ${out_dir}/${iso_label}.checksum
+    md5sum ${iso_label}.iso > ${iso_label}.md5
     echo "Moving pkglist.x86_64.txt"
     echo "########################"
+    cd ..
     cp ${work_dir}/iso/arch/pkglist.x86_64.txt  ${out_dir}/${iso_label}.iso.pkglist.txt
 }
 

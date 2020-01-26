@@ -231,7 +231,6 @@ wpa_supplicant
 ###applications
 #atom
 #chromium
-#picom
 #darktable
 #deadbeef
 #dmenu
@@ -242,7 +241,7 @@ wpa_supplicant
 #galculator
 #geany
 #gimp
-#gmrun
+gmrun
 #gsimplecal
 #guvcview
 #imagemagick
@@ -257,7 +256,6 @@ numlockx
 #scrot
 #simplescreenrecorder
 termite
-#tint2
 #variety
 #vlc
 
@@ -286,17 +284,6 @@ ttf-dejavu
 #arc-icon-theme
 #gnome-icon-theme
 #papirus-icon-theme
-
-###lightdm
-#accountsservice
-lightdm
-
-###lx-applications
-#lxappearance
-#lxappearance-gtk3
-#lxappearance-obconf
-#lxappearance-obconf-gtk3
-#lxrandr
 
 ###themes
 #adapta-gtk-theme
@@ -361,7 +348,7 @@ mlocate
 reflector
 #redshift
 #rofi
-#rxvt-unicode
+rxvt-unicode
 #simple-scan
 #shotwell
 #speedtest-cli
@@ -378,7 +365,6 @@ reflector
 #webkit2gtk
 #wmctrl
 #xapps
-#xcape
 xdo
 xdotool
 #xdg-desktop-portal-gtk
@@ -436,9 +422,7 @@ glxinfo
 #grub-customizer
 #hardcode-fixer-git
 #inxi
-#menulibre
 #mintstick-git
-#mugshot
 neofetch
 #numix-gtk-theme-git
 #pamac-aur
@@ -669,13 +653,42 @@ qt5-xmlpatterns
 arcod-calamares-config-next-git
 
 ###########################################################################
-#                                DESKTOP SPECIFIC
+#                                DISPLAY MANAGER
+###########################################################################
+
+###lightdm
+#accountsservice
+lightdm
+
+###########################################################################
+#                         PICOM OR COMPTON
+###########################################################################
+
+#picom
+
+###########################################################################
+#                         GENERAL DESKTOP RELATED
+###########################################################################
+
+#mugshot
+#menulibre
+
+###########################################################################
+#                         ARCOLINUX ISO SPECIFIC
+###########################################################################
+
+###########################################################################
+#                                 i3
 ###########################################################################
 
 ###i3wm
 #i3status
 #i3blocks
 #i3-gaps
+
+###########################################################################
+#                               OPENBOX
+###########################################################################
 
 ###openbox
 #gtk2-perl
@@ -685,6 +698,16 @@ arcod-calamares-config-next-git
 #obconf
 #openbox
 #perl-linux-desktopfiles
+#tint2
+#xcape
+#openbox-themes-pambudi-git
+
+###lx-applications
+#lxappearance
+#lxappearance-gtk3
+#lxappearance-obconf
+#lxappearance-obconf-gtk3
+#lxrandr
 
 ###########################################################################
 #                                XFCE
