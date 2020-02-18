@@ -617,8 +617,8 @@ kconfig
 ki18n
 kservice
 kwidgetsaddons
-#kpmcore
-kpmcore-git
+kpmcore
+#kpmcore-git
 boost-libs
 libpwquality
 squashfs-tools

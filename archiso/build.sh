@@ -2,11 +2,11 @@
 
 set -e -u
 
-iso_name=arcolinuxd-next
-iso_label="arcolinuxd-next-v20.2.12"
+iso_name=arcolinuxd-dev
+iso_label="arcolinuxd-dev-v20.3.2"
 iso_publisher="ArcoLinux <http://www.arcolinux.info>"
 iso_application="ArcoLinuxD Live/Rescue CD"
-iso_version="v20.2.12"
+iso_version="v20.3.2"
 install_dir=arch
 work_dir=work
 out_dir=out
