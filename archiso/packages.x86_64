@@ -436,8 +436,8 @@ neofetch
 #the_platinum_searcher-bin
 #tmux
 trizen
-#urxvt-perls
-#urxvt-resize-font-git
+urxvt-perls
+urxvt-resize-font-git
 #wttr
 #yad
 #yakuake
