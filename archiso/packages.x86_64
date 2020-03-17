@@ -198,7 +198,7 @@ wpa_supplicant
 #mtpfs
 #udiskie
 #udisks2
-#xdg-user-dirs
+xdg-user-dirs
 
 ###printers
 #cups
