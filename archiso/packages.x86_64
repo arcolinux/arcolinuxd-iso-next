@@ -413,7 +413,6 @@ mkinitcpio-openswap
 
 ###utilities-repo
 #archiso
-#aurvote-git
 #conky-lua-archers
 #downgrade
 #font-manager-git
