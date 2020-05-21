@@ -3,10 +3,10 @@
 set -e -u
 
 iso_name=arcolinuxd-next
-iso_label="arcolinuxd-next-v20.6.2"
+iso_label="arcolinuxd-next-v20.6.3"
 iso_publisher="ArcoLinux <http://www.arcolinux.info>"
 iso_application="ArcoLinuxD Live/Rescue CD"
-iso_version="v20.6.2"
+iso_version="v20.6.3"
 install_dir=arch
 work_dir=work
 out_dir=out
