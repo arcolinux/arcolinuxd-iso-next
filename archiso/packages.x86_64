@@ -20,6 +20,7 @@ dmraid
 dnsmasq
 dnsutils
 dosfstools
+efibootmgr
 #elinks
 ethtool
 exfat-utils
@@ -49,11 +50,12 @@ mdadm
 mtools
 nano
 ndisc6
-netctl
+#netctl
 nfs-utils
 nilfs-utils
 #nmap
 ntfs-3g
+nvme-cli
 ntp
 openconnect
 openssh
@@ -63,7 +65,7 @@ parted
 partimage
 ppp
 pptpclient
-refind
+#refind
 reiserfsprogs
 rp-pppoe
 rsync

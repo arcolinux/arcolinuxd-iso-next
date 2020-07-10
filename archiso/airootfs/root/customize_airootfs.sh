@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e -u
+
 # User = liveuser
 # Password = empty
 count=0
@@ -50,7 +52,7 @@ function editOrCreateConfigFilesFunc () {
 function configRootUserFunc() {
     usermod -s /usr/bin/bash root
     cp -aT /etc/skel/ /root/
-    chmod 750 /root
+    chmod 700 /root
 }
 
 function createLiveUserFunc () {
