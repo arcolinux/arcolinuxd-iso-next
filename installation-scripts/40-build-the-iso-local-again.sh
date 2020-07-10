@@ -104,6 +104,9 @@ sudo chmod 750 $buildFolder/archiso/airootfs/etc/sudoers.d
 sudo chmod 750 $buildFolder/archiso/airootfs/etc/polkit-1/rules.d
 sudo chgrp polkitd $buildFolder/archiso/airootfs/etc/polkit-1/rules.d
 
+echo "adding time to /etc/dev-rel"
+date_build=$(date -d now)
+sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/" $buildFolder/archiso/airootfs/etc/dev-rel
 echo
 echo "################################################################## "
 tput setaf 2;echo "Phase 5 : Cleaning the cache";tput sgr0
