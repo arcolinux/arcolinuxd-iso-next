@@ -1,6 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 set -e -u
+
+echo 'Warning: customize_airootfs.sh is deprecated! Support for it will be removed in a future archiso version.'
 
 # User = liveuser
 # Password = empty
@@ -52,7 +54,7 @@ function editOrCreateConfigFilesFunc () {
 function configRootUserFunc() {
     usermod -s /usr/bin/bash root
     cp -aT /etc/skel/ /root/
-    chmod 700 /root
+    chmod 750 /root
 }
 
 function createLiveUserFunc () {
