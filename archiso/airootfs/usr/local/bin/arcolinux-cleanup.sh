@@ -12,4 +12,6 @@ for i in `ls /home/`; do rm -rf /home/$i/.local/share/xfce4 || exit 0; done
 pacman -Rs exo thunar xfconf libxfce4ui libxfce4util --noconfirm
 rm /usr/local/bin/arcolinux-all-cores.sh
 mv /etc/arcolinux-release /etc/lsb-release
+pacman -R mkinitcpio-archiso --noconfirm
+mv /etc/mkinitcpio.d/arcolinux /etc/mkinitcpio.d/linux.preset
 rm /usr/local/bin/arcolinux-cleanup.sh
