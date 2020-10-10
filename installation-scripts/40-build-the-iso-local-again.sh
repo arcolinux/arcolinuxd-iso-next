@@ -166,4 +166,4 @@ tput setaf 2;echo "Phase 8 : Making sure we start with a clean slate next time";
 echo "################################################################## "
 echo
 echo "Deleting the build folder if one exists - takes some time"
-[ -d $buildFolder ] && sudo rm -rf $buildFolder
+#[ -d $buildFolder ] && sudo rm -rf $buildFolder
