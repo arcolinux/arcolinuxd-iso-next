@@ -2,7 +2,7 @@
 # shellcheck disable=SC2034
 
 iso_name=arcolinuxd-next
-iso_label="arcolinuxd-next-v20.11.6"
+iso_label="arcolinuxd-next-v20.11.7"
 iso_publisher="ArcoLinux <http://www.arcolinux.info>"
 iso_application="ArcoLinux Live/Rescue CD"
 iso_version="v20.11.6"

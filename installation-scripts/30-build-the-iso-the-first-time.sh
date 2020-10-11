@@ -18,7 +18,7 @@
 buildFolder="$HOME/arcolinuxd-build"
 outFolder="$HOME/ArcoLinuxD-Out"
 isoFolder="arcolinuxd-iso-next"
-iso_label="arcolinuxd-next-v20.11.5"
+iso_label="arcolinuxd-next-v20.11.7"
 archisoversion=$(sudo pacman -Q archiso)
 
 echo
