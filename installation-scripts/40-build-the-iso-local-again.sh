@@ -31,7 +31,7 @@ echo
 
 	arcolinuxVersion='v20.11.7'
 
-	isoLabel='arcolinuxd-'$arcolinuxVersion'-x86_64.iso'
+	isoLabel='arcolinuxd-next-'$arcolinuxVersion'-x86_64.iso'
 
 	# setting of the general parameters
 	buildFolder=$HOME"/arcolinuxd-build"
