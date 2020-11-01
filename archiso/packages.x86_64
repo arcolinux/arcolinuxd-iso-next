@@ -3,11 +3,13 @@
 #####################################################################
 
 ###archiso
+#alsa-utils
 amd-ucode
 arch-install-scripts
 #b43-fwcutter
 base
 bind-tools
+#brltty
 broadcom-wl
 btrfs-progs
 clonezilla
@@ -24,6 +26,7 @@ dnsutils
 dosfstools
 edk2-shell
 efibootmgr
+#espeakup
 ethtool
 exfatprogs
 f2fs-tools
@@ -46,6 +49,7 @@ jfsutils
 linux
 linux-atm
 linux-firmware
+#livecd-sounds
 logrotate
 lsscsi
 lvm2
@@ -84,6 +88,7 @@ rsync
 sdparm
 sg3_utils
 smartmontools
+#squashfs-tools
 sudo
 syslinux
 #systemd-resolvconf
@@ -91,6 +96,7 @@ tcpdump
 terminus-font
 #termite-terminfo
 testdisk
+#udftools
 usb_modeswitch
 usbutils
 vim
