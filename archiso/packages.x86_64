@@ -715,12 +715,17 @@ adobe-source-han-sans-cn-fonts
 arcod-calamares-config-next-git
 
 ###########################################################################
-#                                DISPLAY MANAGER
+#                                DISPLAY MANAGERS
 ###########################################################################
 
+accountsservice
+
 ###lightdm
-#accountsservice
 lightdm
+
+###sddm
+#sddm
+#sddm-sugar-candy-git
 
 ###########################################################################
 #                         PICOM OR COMPTON
