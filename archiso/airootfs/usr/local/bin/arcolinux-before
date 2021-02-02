@@ -3,6 +3,10 @@ echo "#################################"
 echo "Start arcolinux-before"
 echo "#################################"
 
+pacman-key --init
+pacman-key --populate archlinux
+pacman-key --populate arcolinux
+
 echo "Copy grub Vimix theme (archiso deletes /boot when making the ISO)"
 echo "#################################"
 mkdir -p /boot/grub/themes
