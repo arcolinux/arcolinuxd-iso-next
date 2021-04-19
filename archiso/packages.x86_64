@@ -190,7 +190,6 @@ cryptsetup
 #bluez
 #bluez-libs
 #bluez-utils
-#bluez-firmware
 #pulseaudio-bluetooth
 
 ###network
@@ -464,7 +463,7 @@ paru-bin
 #sublime-text-dev
 #the_platinum_searcher-bin
 #tmux
-trizen
+#trizen
 urxvt-perls
 urxvt-resize-font-git
 #wttr
@@ -515,6 +514,7 @@ arcolinux-keyring
 #arcolinux-logout-themes-git
 #arcolinux-lxqt-applications-add-git
 #arcolinux-lxqt-applications-hide-git
+#arcolinux-meta-logout
 arcolinux-mirrorlist-git
 arcolinux-neofetch-git
 #arcolinux-nitrogen-git
@@ -543,8 +543,8 @@ arcolinux-systemd-services-git
 #arcolinux-termite-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
-arcolinux-tweak-tool-git
-arcolinux-variety-git
+#arcolinux-tweak-tool-git
+#arcolinux-variety-git
 #arcolinux-variety-autostart-git
 #arcolinux-volumeicon-git
 arcolinux-wallpapers-git
@@ -864,7 +864,7 @@ xfwm4
 ###########################################################################
 #                                ISO SPECIFIC
 ###########################################################################
+arcolinuxb-installer-git
 nvidia
 nvidia-utils
 nvidia-settings
-arcolinuxb-installer-git
