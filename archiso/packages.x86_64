@@ -14,7 +14,7 @@ broadcom-wl-dkms
 btrfs-progs
 clonezilla
 #cloud-init
-#cryptsetup
+cryptsetup
 #darkhttpd
 ddrescue
 dhclient
@@ -42,7 +42,6 @@ grub
 hdparm
 hyperv
 intel-ucode
-irssi
 #iw
 #iwd
 jfsutils
@@ -172,9 +171,6 @@ virtualbox-guest-utils
 
 ###packages for dual boot
 os-prober
-
-###LUKS encryption
-cryptsetup
 
 ###audio
 #alsa-firmware
