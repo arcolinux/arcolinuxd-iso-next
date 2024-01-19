@@ -204,6 +204,7 @@ networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
+networkmanager-qt5
 openresolv
 rtl8821cu-morrownr-dkms-git
 
@@ -707,8 +708,8 @@ arco-calamares-next
 arcolinux-system-installation-git
 #arcolinux-system-installation-dev-git
 arcolinuxd-config-live-session-git
-#arcolinux-welcome-app-git
-arcolinuxd-welcome-app-git
+arcolinux-welcome-app-git
+#arcolinuxd-welcome-app-git
 #arcolinux-welcome-app-dev-git
 #arcolinux-welcome-app-deepin-git
 
